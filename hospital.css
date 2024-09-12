@@ -9,8 +9,8 @@
     background-image: url(https://www.britannica.com/explore/savingearth/wp-content/uploads/sites/4/2019/03/population-hero-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 40vh;
-    width: 100%;
+    height: 50vh;
+    /* width: 100%; */
 }
 .banner3{
     background-image: url(https://media.istockphoto.com/id/1217006576/photo/three-doctors-on-the-light-blue-background.jpg?s=170667a&w=0&k=20&c=e4smJZKxd-roeHcXW47cSUhQ1QNNjMXNsWf92DD8utg=);
