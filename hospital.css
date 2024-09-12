@@ -1,0 +1,104 @@
+.banner{
+    background-image: url(https://i.pinimg.com/600x315/d3/46/8c/d3468c3cebe24e66f23d2043e4a35d01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 85%;
+}
+.container2{
+    background-image: url(https://www.britannica.com/explore/savingearth/wp-content/uploads/sites/4/2019/03/population-hero-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+}
+.banner3{
+    background-image: url(https://media.istockphoto.com/id/1217006576/photo/three-doctors-on-the-light-blue-background.jpg?s=170667a&w=0&k=20&c=e4smJZKxd-roeHcXW47cSUhQ1QNNjMXNsWf92DD8utg=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65vh;
+    width: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #2a3947;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 48%;
+}
+.socialicon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/* Hover effects on social media icons */
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5;
+}
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{  
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color: white;
+}
+.footernav ul li a{
+    color: white;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: #2a3947;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
